@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Top Header Section Start  */
+.tophead {
+  background: #0c242a;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.tophead ul li {
+  color: #fff;
+  display: inline-block;
+  margin: 0px 3px;
+}
+.tophead ul li a {
+  color: #99e596;
+}
+
+/* Top Header Section End */
+
+/* Header section start */
+header {
+  width: 100%;
+  height: 100px;
+  background: #0e5d6a;
+  color: #fff;
+  line-height: 100px;
+  padding: 0px 100px;
+}
+header h1,
+h3 {
+  display: inline-block;
+}
+header h1 {
+  font-size: 50px;
+  margin-right: 20px;
+}
+/* Header section end */
+
+/* nav section start  */
+nav {
+  width: 100%;
+  height: 40px;
+  background: #9dc9d4;
+  line-height: 40px;
+  padding: 0px 100px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  color: #9b8686eb;
+}
+/* nav section end */
+/* Content Section Start  */
+section{
+    width: 100%;
+    padding: 0px 100px;
+}
+section main {
+    width: 80%;
+    float: left;
+    padding:10px 30px;
+}
+.right{
+  margin-right: 20px;
+}
+section aside{
+    width: 20%;
+    float: right;
+    background: #A5B4C4;
+    padding:10px 30px;
+}
+section aside ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+section aside ul li ul li{
+    padding-left: 30px;
+    font-weight: normal;
+    font-size: 15px;
+}
+main p {
+  padding: 5px;
+}
+/* Content Section end  */
+
+/* footer section start  */
+footer{
+width: 100%;
+height: 110px;
+background: #033840;
+color: #fff;
+padding: 10px 100px;
+}
+footer .link{
+  float: left;
+  width: 33.33%;
+}
+footer .follow{
+  float: left;
+  width: 33.33%;
+}
+footer .copy{
+  float: right;
+  width: 33.33%;
+}
+footer div ul li {
+  list-style: none;
+}
+/* footer section start  */
+
+/* mediaquary screen start  */
+
+@media screen and (max-width:991px) {
+  .tophead {
+   padding: 10px;
+   height: auto;
+  }
+  .tophead ul li {
+    color: #fff;
+    display: block;
+    margin: 0px 3px;
+  }
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+}
+@media screen and (max-width:767px){
+  nav ul li{
+    margin-right: 60px;
+  };
+  section {
+    width: 80%;
+    padding: 0px 80px;
+  }
+  section aside ul li ul li{
+    padding-left: 10px;
+  }
+  section aside ul li {
+    list-style: none;
+    font-size: 18px;
+    font: bold;
+}
+footer{
+  height: auto;
+}
+}
+@media screen and (max-width:575px){
+ 
+  .tophead{
+    padding: 0px 60px;
+  }
+   header {
+    height: 70px;
+    line-height: 70px;
+  }
+  header h1,
+h3 {
+  display: inline-block;
+}
+header h1 {
+  font-size: 30px;
+  margin-right: 15px;
+}
+header h3{
+  font-size: 15px;
+
+}
+nav {
+  padding: 0px 80px;
+}
+nav ul li {
+  margin-right: 45px;
+}
+nav ul li a {
+  font-size: 15px;
+  font-weight: 600;
+}
+section aside ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+section aside ul li ul li{
+  padding-left: 10px;
+  font-weight: normal;
+  font-size: 10px;
+}
+section aside{
+  width: 25%;
+  float: left;
+}
+}
+
+/* mediaquary screen end  */
+
+
+
+
+
+
+
+
+
+
